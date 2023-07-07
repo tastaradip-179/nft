@@ -5,14 +5,14 @@ const Transaction = () => {
   return (
     <>
       <div className='bg-[#D9E0EC] my-10 py-20'>
-        <div className='flex container p-6 justify-between md:flex-nowrap flex-wrap gap-20'>
+        <div className='flex container p-6 md:justify-between md:flex-nowrap justify-around flex-wrap gap-20'>
           <div>
             <h2 className='text-black text-[40px] font-bold uppercase'>
               The amazing NFT art of the world here
             </h2>
           </div>
           <div>
-            <div className='flex'>
+            <div className='flex flex-wrap md:flex-nowrap gap-3'>
               <div>
                 <div className='flex pb-5 pt-2 gap-2'>
                   <AiOutlineCalendar className='text-black text-[40px]'/>

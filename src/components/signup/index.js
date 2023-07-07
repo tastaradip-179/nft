@@ -7,7 +7,7 @@ const Signup = () => {
       <div className='container p-6 my-10'>
         <div className='flex my-5 md:flex-nowrap flex-wrap gap-20'>
           <div className='md:w-1/4 w-full'>
-            <div className='relative w-[400px] h-[440px]'>
+            <div className='relative md:w-[400px] md:h-[440px] w-[280px] h-[320px]'>
               <img src='images/sign1.png' alt="sign1"/>
               <img src='images/user1.png' alt="user1" className='rounded-full border border-white absolute right-[-40px] bottom-[-40px]'/>
             </div>
@@ -19,7 +19,7 @@ const Signup = () => {
             </div>
           </div>
           <div className='md:w-1/4 w-full md:pt-[150px] sm:pt-0'>
-            <div className='relative w-[356px] h-[392px]'>
+            <div className='relative md:w-[356px] md:h-[392px] w-[276px] h-[312px]'>
               <img src='images/sign2.png' alt="sign2"/>
               <img src='images/user2.png' alt="user2" className='rounded-full border-white absolute right-[-30px] bottom-[-30px]'/>
             </div>

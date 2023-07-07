@@ -74,7 +74,7 @@ const Footer = () => {
             <div className='relative'>
               <form>
                 <input type='email' placeholder='Enter your email here' className='border border-gray-300 rounded-full p-5 w-full'/>
-                <button className='text-white border border-button bg-button rounded-full p-3 relative mt-1 md:mt-0 md:absolute md:top-[8px] md:right-[10px]'>Subscribe Now</button>
+                <button className='text-white border border-button bg-button rounded-full p-3 relative mt-2 float-right md:mt-0 md:absolute md:top-[8px] md:right-[10px] md:float-none'>Subscribe Now</button>
               </form>
             </div>
           </div>

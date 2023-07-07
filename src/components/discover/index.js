@@ -6,34 +6,34 @@ const Discover = () => {
     <>
       <div className='bg-[#D9E0EC] my-10 py-10'>
         <div className='container p-6'>
-          <h3 className='text-black text-uppercase text-[40px] font-bold my-5'>
+          <h3 className='text-black uppercase text-[40px] font-bold my-5'>
             Discover more NFTs
           </h3>
           <div className='flex my-5 md:flex-nowrap flex-wrap'>
-            <button className='text-white text-sm border border-main bg-main rounded-full px-3 py-2 mr-2'>
+            <button className='text-white text-sm border border-main bg-main rounded-full px-3 py-2 mr-2 mb-2'>
               All Categories
             </button>
-            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 hover:text-white hover:border-main hover:bg-main'>
+            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 mb-2 hover:text-white hover:border-main hover:bg-main'>
               Art
             </button>
-            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 hover:text-white hover:border-main hover:bg-main'>
+            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 mb-2 hover:text-white hover:border-main hover:bg-main'>
               Celebrities
             </button>
-            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 hover:text-white hover:border-main hover:bg-main'>
+            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 mb-2 hover:text-white hover:border-main hover:bg-main'>
               Gaming
             </button>
-            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 hover:text-white hover:border-main hover:bg-main'>
+            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 mb-2 hover:text-white hover:border-main hover:bg-main'>
               Sport
             </button>
-            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 hover:text-white hover:border-main hover:bg-main'>
+            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mr-2 mb-2 hover:text-white hover:border-main hover:bg-main'>
               Music
             </button>
-            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 hover:text-white hover:border-main hover:bg-main'>
+            <button className='text-black text-sm border border-[#DCDCDC] bg-[#DCDCDC] rounded-full px-3 py-2 mb-2 hover:text-white hover:border-main hover:bg-main'>
               Crypto
             </button>
           </div>
           <div className='py-5'>
-            <div className='flex justify-between md:flex-nowrap flex-wrap gap-10'>
+            <div className='flex md:justify-between md:flex-nowrap justify-around flex-wrap gap-10'>
               <div className='border border-white bg-white rounded-[18px] h-auto p-1 relative'>
                 <img src="images/d1.png" alt="discover"/>
                 <div className='px-2'>
@@ -137,7 +137,7 @@ const Discover = () => {
             </div>
           </div>
           <div className='py-5'>
-            <div className='flex justify-between md:flex-nowrap flex-wrap gap-10'>
+            <div className='flex md:justify-between md:flex-nowrap justify-around flex-wrap gap-10'>
               <div className='border border-white bg-white rounded-[18px] h-auto p-1 relative'>
                 <img src="images/d1.png" alt="discover"/>
                 <div className='px-2'>
@@ -241,7 +241,7 @@ const Discover = () => {
             </div>
           </div>
           <div className='py-5'>
-            <div className='flex justify-between md:flex-nowrap flex-wrap gap-10'>
+            <div className='flex md:justify-between md:flex-nowrap justify-around flex-wrap gap-10'>
               <div className='border border-white bg-white rounded-[18px] h-auto p-1 relative'>
                 <img src="images/d1.png" alt="discover"/>
                 <div className='px-2'>
@@ -345,7 +345,7 @@ const Discover = () => {
             </div>
           </div>
           <div className='py-5'>
-            <div className='flex justify-between md:flex-nowrap flex-wrap gap-10'>
+            <div className='flex md:justify-between md:flex-nowrap justify-around flex-wrap gap-10'>
               <div className='border border-white bg-white rounded-[18px] h-auto p-1 relative'>
                 <img src="images/d1.png" alt="discover"/>
                 <div className='px-2'>

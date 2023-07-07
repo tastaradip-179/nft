@@ -7,8 +7,8 @@ const Collection = () => {
         <div className='container p-6'>
           <div className='flex my-5 md:flex-nowrap flex-wrap gap-[140px]'>
             <div className='md:w-4/12 sm:w-full'>
-              <img src='images/collection.png' alt="collection"/>
-              <div className='flex mt-5 justify-between'>
+              <img src='images/collection.png' alt="collection" className='md:w-full w-[280px]'/>
+              <div className='flex mt-5 md:justify-between justify-around'>
                 <div className='flex gap-3'>
                   <div>
                     <img src="images/user.png" alt="user"/>
@@ -25,14 +25,14 @@ const Collection = () => {
               </div>
             </div>
             <div className='md:w-4/12 sm:w-full'>
-              <div className='flex gap-5 mb-3 md:flex-nowrap flex-wrap'>
+              <div className='flex gap-5 mb-3 md:flex-nowrap flex-wrap items-center'>
                 <div>
                   <img src='images/c1.png' alt="c1"/>
                 </div>
                 <div>
-                  <h6 className='rext-black text-lg font-semibold'>The Futr Abstr</h6>
-                  <div className='flex justify-between gap-2 my-2 md:flex-nowrap flex-wrap'>
-                    <img src="images/user.png" alt="user"/>
+                  <h6 className='text-black text-lg font-semibold'>The Futr Abstr</h6>
+                  <div className='flex justify-between gap-2 my-2 md:flex-row md:flex-nowrap flex-col flex-wrap'>
+                    <img src="images/user.png" alt="user" className='w-[48px]'/>
                     <button className='text-success border border-success rounded-md p-2'>
                       <BsVectorPen className='inline-block mr-2'/>
                       <span>0.25 ETH</span>
@@ -49,9 +49,9 @@ const Collection = () => {
                   <img src='images/c2.png' alt="c2"/>
                 </div>
                 <div>
-                  <h6 className='rext-black text-lg font-semibold'>The Futr Abstr</h6>
-                  <div className='flex justify-between gap-2 my-2 md:flex-nowrap flex-wrap'>
-                    <img src="images/user.png" alt="user"/>
+                  <h6 className='text-black text-lg font-semibold'>The Futr Abstr</h6>
+                  <div className='flex justify-between gap-2 my-2 md:flex-row md:flex-nowrap flex-col flex-wrap'>
+                    <img src="images/user.png" alt="user" className='w-[48px]'/>
                     <button className='text-success border border-success rounded-md p-2'>
                       <BsVectorPen className='inline-block mr-2'/>
                       <span>0.25 ETH</span>
@@ -68,9 +68,9 @@ const Collection = () => {
                   <img src='images/c3.png' alt="c3"/>
                 </div>
                 <div>
-                  <h6 className='rext-black text-lg font-semibold'>The Futr Abstr</h6>
-                  <div className='flex justify-between gap-2 my-2 md:flex-nowrap flex-wrap'>
-                    <img src="images/user.png" alt="user"/>
+                  <h6 className='text-black text-lg font-semibold'>The Futr Abstr</h6>
+                  <div className='flex justify-between gap-2 my-2 md:flex-row md:flex-nowrap flex-col flex-wrap'>
+                    <img src="images/user.png" alt="user" className='w-[48px]'/>
                     <button className='text-success border border-success rounded-md p-2'>
                       <BsVectorPen className='inline-block mr-2'/>
                       <span>0.25 ETH</span>
@@ -84,13 +84,13 @@ const Collection = () => {
               </div>
             </div>
             <div className='md:w-4/12 sm:w-full'>
-              <h4 className='text-black text-lg font-bold uppercase mb-2'>
+              <h4 className='text-black text-lg font-bold uppercase mb-2 text-center md:text-left'>
                 Top Collections over 
               </h4>
-              <p className='text-main text-sm font-semibold mb-5'>
+              <p className='text-main text-sm font-semibold mb-5 text-center md:text-left'>
                 Last 7 days
               </p>
-              <div className='my-3'>
+              <div className='my-3 text-center md:text-left'>
                 <div className='flex items-center gap-2 mb-3'>
                   <p className='text-black text-md font-semibold'>1</p>
                   <img src="images/c1s.png" alt="c1s"/>

@@ -5,7 +5,7 @@ const Cover = () => {
   return (
     <>
       <div className='container p-6'>
-        <div className='flex md:justify-between md:flex-nowrap flex-wrap justify-end bg-transparent my-10 gap-20'>
+        <div className='flex md:justify-between md:flex-nowrap flex-wrap justify-around bg-transparent my-10 gap-20'>
           <div className='md:w-3/5 w-full'>
             <h1 className='text-black text-[50px] font-bold mb-5'>
                 Discover, and collect Digital Art  NFTs 
@@ -39,10 +39,10 @@ const Cover = () => {
                     <img src="images/user.png" alt="user"/>
                     <span className='text-white text-sm pt-3 pl-2'>Arkhan17</span>
                   </div>
-                  <img src="images/auction.png" alt="auction" className='absolute z-50 left-[-70px] top-[125px]'/>
-                  <img src="images/cover1.png" alt="cover1" className='absolute z-40'/>
-                  <img src="images/cover2.png" alt="cover2" className='absolute z-30 left-[85px] top-[15px]'/>
-                  <img src="images/cover3.png" alt="cover3" className='absolute z-20 left-[155px] top-[45px]'/>
+                  <img src="images/auction.png" alt="auction" className='absolute z-50 left-[-70px] top-[125px] md:w-[138px] w-[78px]'/>
+                  <img src="images/cover1.png" alt="cover1" className='absolute z-40 md:w-[300px] w-[240px]'/>
+                  <img src="images/cover2.png" alt="cover2" className='absolute z-30 left-[85px] top-[15px] md:w-[241px] w-[181px]'/>
+                  <img src="images/cover3.png" alt="cover3" className='absolute z-20 left-[155px] top-[45px] md:w-[195px] w-[135px]'/>
                   <div className='absolute flex z-50 left-[15px] top-[235px] justify-between'>
                     <div className='text-white'>
                       <p>Current Bid</p>
