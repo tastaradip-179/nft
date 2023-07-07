@@ -16,7 +16,7 @@ const Cover = () => {
             <button className='text-white bg-main border border-main p-5 rounded-full my-5 hover:text-main hover:bg-white'>
               Explore Now
             </button>
-            <div className='flex text-black'>
+            <div className='flex text-black gap-2'>
               <div>
                 <h5 className='text-[40px] font-bold'>98K+</h5>
                 <p className='text-sm text-paragraph'>Artword</p>
@@ -32,14 +32,14 @@ const Cover = () => {
             </div>
           </div>
           <div className='md:w-2/5 w-full'>
-            <div className='ml-10 md:ml-0'>
+            <div className='ml-5 md:ml-0'>
               <div className='relative w-full h-[300px]'>
                   <h4 className='absolute z-50 text-white text-lg font-semibold left-[15px] top-[10px]'>Abstr Gradient NFT</h4>
                   <div className='absolute z-50 flex left-[15px] top-[50px]'>
                     <img src="images/user.png" alt="user"/>
                     <span className='text-white text-sm pt-3 pl-2'>Arkhan17</span>
                   </div>
-                  <img src="images/auction.png" alt="auction" className='absolute z-50 left-[-70px] top-[125px] md:w-[138px] w-[78px]'/>
+                  <img src="images/auction.png" alt="auction" className='absolute z-50 md:left-[-70px] left-[-40px] top-[125px] md:w-[138px] w-[78px]'/>
                   <img src="images/cover1.png" alt="cover1" className='absolute z-40 md:w-[300px] w-[240px]'/>
                   <img src="images/cover2.png" alt="cover2" className='absolute z-30 left-[85px] top-[15px] md:w-[241px] w-[181px]'/>
                   <img src="images/cover3.png" alt="cover3" className='absolute z-20 left-[155px] top-[45px] md:w-[195px] w-[135px]'/>

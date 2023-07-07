@@ -9,7 +9,7 @@ const Signup = () => {
           <div className='md:w-1/4 w-full'>
             <div className='relative md:w-[400px] md:h-[440px] w-[280px] h-[320px]'>
               <img src='images/sign1.png' alt="sign1"/>
-              <img src='images/user1.png' alt="user1" className='rounded-full border border-white absolute right-[-40px] bottom-[-40px]'/>
+              <img src='images/user1.png' alt="user1" className='rounded-full border-white absolute right-[-40px] bottom-[-40px]'/>
             </div>
             <div className='mt-20'>
               <div className='relative w-[270px] h-[320px] lg:float-right float-none'>

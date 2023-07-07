@@ -4,7 +4,7 @@ const Featured = () => {
   return (
     <>
       <div className='container p-6 my-10'>
-        <h2 className='text-black text-[45px] font-bold my-10'>
+        <h2 className='text-black text-[45px] font-bold uppercase my-10'>
           Collection Featured NFTs
         </h2>
         <div className='flex md:justify-between md:flex-nowrap justify-around flex-wrap gap-[120px] pt-5 my-5'>

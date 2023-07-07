@@ -1,17 +1,45 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { ImCross } from 'react-icons/im'
 
 const Header = () => {
+
+  const [open, setOpen] = useState(false);
+
+  useEffect(()=>{
+    if(window.innerWidth >= 667){
+        setOpen(true)
+    }
+    function screenResize(e){
+        if(window.innerWidth >= 667){
+            setOpen(true);
+        }
+        else{
+            setOpen(false);
+        }
+    }
+    window.addEventListener("resize", screenResize)
+  }, [])
+
+  let handleOpen = () => {
+    setOpen(!open);
+  }
+  
   return (
     <>
-      <nav className="container flex items-center justify-between flex-wrap bg-transparent p-6">
+      <nav className="container flex items-center md:justify-between justify-around flex-wrap bg-transparent p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-10">
           <img src="images/logo.png" alt="NFTERS"/>
         </div>
-        <div className="block lg:hidden">
-          <button className="flex items-center px-3 py-2 border rounded text-black border-main hover:text-main hover:border-main">
-            <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-          </button>
-        </div>
+        <button onClick={handleOpen} className='flex md:hidden items-center px-3 py-2 border border-main rounded text-main text-base'>
+            {open
+            ?
+            <ImCross/>  
+            :
+            <GiHamburgerMenu/>
+            }
+        </button>
+        {open && 
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div className="text-sm lg:flex-grow md:mb-0 mb-5">
             <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-main mr-10">
@@ -38,6 +66,7 @@ const Header = () => {
             </div>
           </div>
         </div>
+        }
       </nav>
     </>
   )

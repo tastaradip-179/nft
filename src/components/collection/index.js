@@ -44,7 +44,7 @@ const Collection = () => {
                   </button>
                 </div>
               </div>
-              <div className='flex gap-5 mb-3 md:flex-nowrap flex-wrap'>
+              <div className='flex gap-5 mb-3 md:flex-nowrap flex-wrap items-center'>
                 <div>
                   <img src='images/c2.png' alt="c2"/>
                 </div>
@@ -63,7 +63,7 @@ const Collection = () => {
                   </button>
                 </div>
               </div>
-              <div className='flex gap-5 mb-3 md:flex-nowrap flex-wrap'>
+              <div className='flex gap-5 mb-3 md:flex-nowrap flex-wrap items-center'>
                 <div>
                   <img src='images/c3.png' alt="c3"/>
                 </div>
